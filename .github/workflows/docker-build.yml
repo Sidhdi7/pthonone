@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/flask-docker-app:latest
+        tags: sidhdi7/flask-docker-app:latest
