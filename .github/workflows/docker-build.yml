@@ -19,7 +19,7 @@ jobs:
       uses: docker/login-action@v3
       with:
         username: sidhdi7
-        password: 
+        password: dckr_pat_QBvSi_f-ATXU8ymqFYATsiygb0w
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
